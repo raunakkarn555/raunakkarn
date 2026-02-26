@@ -212,3 +212,119 @@ body {
     padding-top: 40px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXPERIENCE SECTION */
+
+.resume-experience {
+  padding: 40px 0 80px;
+  background: #0b0b0b;
+}
+
+.resume-experience-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.resume-experience-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 28px;
+}
+
+.resume-experience-item {
+  margin-bottom: 30px;
+}
+
+.resume-role {
+  font-size: 16px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 6px;
+}
+
+.resume-dates {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.resume-experience-list {
+  padding-left: 18px;
+}
+
+.resume-experience-list li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #b5b5b5;
+  margin-bottom: 12px;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-experience {
+    padding: 30px 0 50px;
+  }
+
+  .resume-experience-title {
+    font-size: 18px;
+  }
+
+  .resume-role {
+    font-size: 15px;
+  }
+
+  .resume-dates {
+    font-size: 13px;
+  }
+
+  .resume-experience-list li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-experience {
+    padding-top: 40px;
+  }
+}
+/* EXPERIENCE SECTION ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
