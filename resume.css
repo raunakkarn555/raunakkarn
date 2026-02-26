@@ -90,6 +90,15 @@ body {
   border-bottom: 1px solid #eaeaea;
 }
 
+/* DIVIDER LINE */
+.divider {
+  margin-top: 48px;
+  height: 1px;
+  background: #1f1f1f;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
 
 /* ============================= */
 /* MOBILE REFINEMENT (≤640px)   */
