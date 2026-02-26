@@ -563,6 +563,77 @@ body {
 
 
 
+/* AVAILABILITY SECTION */
+
+.resume-availability {
+  padding: 40px 0 100px;
+  background: #0b0b0b;
+}
+
+.resume-availability-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.resume-availability-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 12px;
+}
+
+.resume-availability-subtitle {
+  font-size: 15px;
+  color: #8a8a8a;
+  margin-bottom: 18px;
+}
+
+.resume-availability-list {
+  padding-left: 18px;
+}
+
+.resume-availability-list li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #b5b5b5;
+  margin-bottom: 10px;
+}
 
 
-/* KEY STRENGTHS SECTION */
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-availability {
+    padding: 30px 0 70px;
+  }
+
+  .resume-availability-title {
+    font-size: 18px;
+  }
+
+  .resume-availability-subtitle {
+    font-size: 14px;
+  }
+
+  .resume-availability-list li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-availability {
+    padding-top: 40px;
+  }
+}
+/* AVAILABILITY SECTION ends */
