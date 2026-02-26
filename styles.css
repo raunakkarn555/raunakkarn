@@ -164,3 +164,79 @@ body {
   }
 }
 /* HERO SECTION END */
+
+
+
+/* ABOUT / IMPACT SECTION */
+
+.about {
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+}
+
+.about-inner {
+  max-width: 760px;          /* SAME fixed column */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.about-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  color: #eaeaea;
+}
+.about-title {
+  margin-top: 32px;
+}
+
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cfcfcf;
+  margin-bottom: 24px;
+}
+
+/* MOBILE REFINEMENT — SAME MEDIA QUERY */
+@media (max-width: 640px) {
+  .about {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+
+  .about-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+/* MOBILE + DESKTOP VIEW FIX — SAME AS HERO */
+@media (max-width: 1024px) {
+  .about {
+    padding-top: 40px;
+  }
+}
+
+/* ABOUT SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
