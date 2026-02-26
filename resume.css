@@ -156,7 +156,9 @@ body {
 /* PROFESSIONAL SUMMARY SECTION */
 
 .resume-summary {
-  padding: 40px 0 80px;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -228,7 +230,9 @@ body {
 /* EXPERIENCE SECTION */
 
 .resume-experience {
-  padding: 40px 0 80px;
+ padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -324,7 +328,9 @@ body {
 /* EDUCATION SECTION */
 
 .resume-education {
-  padding: 40px 0 80px;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -411,7 +417,9 @@ body {
 /* TECHNICAL SKILLS SECTION */
 
 .resume-skills {
-  padding: 40px 0 80px;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -493,7 +501,9 @@ body {
 /* KEY STRENGTHS SECTION */
 
 .resume-strengths {
-  padding: 40px 0 80px;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -566,7 +576,9 @@ body {
 /* AVAILABILITY SECTION */
 
 .resume-availability {
-  padding: 40px 0 100px;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
