@@ -146,5 +146,21 @@ body {
   }
 }
 
+/* Fix for mobile + mobile desktop-view */
+@media (max-width: 1024px) {
+  .hero {
+    align-items: flex-start;
+    min-height: auto;
+    padding-top: 24px;
+  }
+}
 
+/* Fix for mobile + mobile desktop-view */
+@media (max-width: 1024px) {
+  .hero {
+    align-items: flex-start;
+    min-height: auto;
+    padding-top: 24px;
+  }
+}
 /* HERO SECTION END */
