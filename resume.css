@@ -18,6 +18,7 @@ body {
    max-width: 760px;          /* fixed readable column like reference */
   margin: 0 auto;
   padding: 0 24px;
+  padding-top: 40px;
 }
 
 /* DIVIDER LINE */
@@ -407,5 +408,85 @@ body {
 /* EDUCATION SECTION ends  */
 
 
+/* TECHNICAL SKILLS SECTION */
 
+.resume-skills {
+  padding: 40px 0 80px;
+  background: #0b0b0b;
+}
+
+.resume-skills-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.resume-skills-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 32px;
+}
+
+.resume-skill-group {
+  margin-bottom: 30px;
+}
+
+.resume-skill-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 14px;
+}
+
+.resume-skill-list {
+  padding-left: 18px;
+}
+
+.resume-skill-list li {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #b5b5b5;
+  margin-bottom: 8px;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-skills {
+    padding: 30px 0 50px;
+  }
+
+  .resume-skills-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .resume-skill-heading {
+    font-size: 15px;
+  }
+
+  .resume-skill-list li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-skills {
+    padding-top: 40px;
+  }
+}
+
+/* TECHNICAL SKILLS SECTION ends */
 
