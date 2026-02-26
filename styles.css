@@ -226,8 +226,9 @@ body {
 
 /* SKILLS SECTION */
 .skills {
-  padding-top: 0;
+   padding-top: 0;          /* IMPORTANT */
   padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b; /* match body background */
 }
 
@@ -309,7 +310,7 @@ body {
 .focus {
   padding-top: 0;          /* IMPORTANT */
   padding-bottom: 80px;
-  padding: 40px 0 80px;
+  margin-top: 0px;
   background: #0b0b0b;
 }
 
@@ -403,7 +404,9 @@ body {
 
 /* PROJECTS SECTION - LIST STYLE */
 .projects {
-  padding: 40px 0 80px;
+   padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
   background: #0b0b0b; /* dark theme */
 }
 
@@ -454,3 +457,112 @@ body {
 
 /* PROJECTS SECTION - LIST STYLE  ENDS*/
 
+
+/* ELSEWHERE / ONLINE PRESENCE */
+
+.elsewhere {
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
+  background: #0b0b0b; /* dark theme */
+}
+
+.elsewhere-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.elsewhere-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 32px;
+}
+
+.elsewhere-item {
+  margin-bottom: 28px;
+}
+
+.elsewhere-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 6px;
+}
+
+.elsewhere-item p {
+  font-size: 15px;
+  color: #b5b5b5;
+  line-height: 1.6;
+}
+
+/* Mobile refinement */
+/* MOBILE REFINEMENT */
+@media (max-width: 640px) {
+
+  .elsewhere {
+    padding: 30px 0 50px;
+  }
+
+  .elsewhere-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .elsewhere-item {
+    padding: 14px 12px;   /* better tap area */
+    margin-bottom: 20px;
+  }
+
+  .elsewhere-item h3 {
+    font-size: 16px;
+  }
+
+  .elsewhere-item p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Disable translate shift on mobile (touch devices) */
+  .elsewhere-item:hover {
+    transform: none;
+  }
+
+}
+/* SOCIAL LINKS HOVER HIGHLIGHT EFFECT */
+
+.elsewhere-item {
+  padding: 8px 8px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.elsewhere-item a {
+  color: #eaeaea;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.elsewhere-item:hover {
+  background: #121212;       /* subtle highlight */
+  transform: translateX(6px);
+  /* slight shift */
+}
+
+.elsewhere-item:hover a {
+  color: #ffffff;
+}
+
+/* Optional subtle border glow on hover */
+.elsewhere-item:hover {
+  border: 1px solid #1f1f1f;
+}
+/* Tablets / <=1024px */
+@media (max-width: 1024px) {
+  .elsewhere {
+    padding-top: 40px;
+  }
+}
+
+/* ELSEWHERE SECTION END */
