@@ -1,1 +1,137 @@
+/* GLOBAL */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #0b0b0b;
+  color: #eaeaea;
+}
+
+/* HERO SECTION */
+
+.resume-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.resume-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* BACK BUTTON */
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 40px;
+  text-decoration: none;
+  background: #292524;
+  color: #eaeaea;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+/* NAME */
+
+.resume-name {
+  font-size: clamp(32px, 5vw, 42px);
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/* ROLE */
+
+.resume-role {
+  font-size: 18px;
+  color: #cfcfcf;
+  margin-bottom: 14px;
+}
+
+/* LOCATION */
+
+.resume-location {
+  font-size: 15px;
+  color: #9a9a9a;
+  margin-bottom: 28px;
+}
+
+/* LINKS */
+
+.resume-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.resume-links a {
+  font-size: 14px;
+  color: #b5b5b5;
+  text-decoration: none;
+  border-bottom: 1px solid #1f1f1f;
+  transition: color 0.3s ease, border 0.3s ease;
+}
+
+.resume-links a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-hero {
+    align-items: flex-start;
+    min-height: auto;
+    padding-top: 40px;
+  }
+
+  .back-btn {
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+
+  .resume-name {
+    font-size: 26px;
+  }
+
+  .resume-role {
+    font-size: 16px;
+  }
+
+  .resume-location {
+    font-size: 14px;
+  }
+
+  .resume-links a {
+    font-size: 13px;
+  }
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-hero {
+    padding-top: 60px;
+  }
+}
