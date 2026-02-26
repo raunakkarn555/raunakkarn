@@ -575,8 +575,10 @@ body {
 /* WRITING & ACHIEVEMENTS SECTION */
 
 .writing {
-  padding: 40px 0 80px;
-  background: #0b0b0b;
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
+  background: #0b0b0b; /* dark theme */
 }
 
 .writing-inner {
@@ -711,6 +713,97 @@ body {
 
 
 
+/* GROWTH TRACKER SECTION */
+
+.growth {
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
+  margin-top: 0px;
+  background: #0b0b0b; /* dark theme */
+}
+
+.growth-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.growth-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 32px;
+}
+
+/* 2 Column Grid */
+.growth-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+/* Text Styling */
+.growth-left p,
+.growth-right p {
+  font-size: 15px;
+  color: #b5b5b5;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.growth-list {
+  margin: 16px 0 20px;
+}
+
+.growth-phase {
+  margin-top: 12px;
+}
+
+.growth-commitment {
+  color: #cfcfcf;
+  margin-top: 14px;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .growth {
+    padding: 30px 0 50px;
+  }
+
+  .growth-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .growth-grid {
+    grid-template-columns: 1fr;   /* stack vertically */
+    gap: 28px;
+  }
+
+  .growth-left p,
+  .growth-right p,
+  .growth-commitment {
+    font-size: 14px;
+  }
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .growth {
+    padding-top: 40px;
+  }
+}
+
+/* GROWTH TRACKER SECTION END */
 
 
 
@@ -719,4 +812,3 @@ body {
 
 
 
-/* ELSEWHERE SECTION END */
