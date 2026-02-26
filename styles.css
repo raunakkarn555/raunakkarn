@@ -565,4 +565,158 @@ body {
   }
 }
 
+
+/* elsewhere css end */
+
+
+
+
+
+/* WRITING & ACHIEVEMENTS SECTION */
+
+.writing {
+  padding: 40px 0 80px;
+  background: #0b0b0b;
+}
+
+.writing-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.writing-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 32px;
+}
+
+.writing-item {
+  margin-bottom: 32px;
+}
+
+.writing-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 10px;
+}
+
+.writing-item p {
+  font-size: 15px;
+  color: #b5b5b5;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Logos Layout */
+.writing-logos {
+  display: flex;
+  gap: 24px;
+  margin: 18px 0 20px;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #121212;
+  padding: 4px;
+}
+
+.logo-item span {
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+/* Writing Impact */
+.writing-impact {
+  margin-top: 12px;
+}
+
+/* Motto */
+.motto {
+  font-style: italic;
+  color: #9a9a9a;
+  margin-top: 10px;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .writing {
+    padding: 30px 0 50px;
+  }
+
+  .writing-title {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .writing-item {
+    margin-bottom: 24px;
+  }
+
+  .writing-item h3 {
+    font-size: 16px;
+  }
+
+  .writing-item p {
+    font-size: 14px;
+  }
+
+  .writing-logos {
+    gap: 16px;
+    margin: 14px 0 16px;
+  }
+
+  .logo-item img {
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+  }
+
+  .logo-item span {
+    font-size: 13px;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET / ≤1024px FIX         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .writing {
+    padding-top: 40px;
+  }
+}
+
+/* WRITING & ACHIEVEMENTS SECTION END */
+
+
+
+
+
+
+
+
+
+
+
+
 /* ELSEWHERE SECTION END */
