@@ -29,11 +29,11 @@ body {
 .name {
   font-size: 14px;
   color: #a8a8a8;
-  margin-bottom: 32px;
+  margin-bottom: 25px;
 }
 
 .headline {
-  font-size: clamp(34px, 4.8vw, 52px);
+  font-size: clamp(30px, 4.8vw, 40px);
   font-weight: 600;
   line-height: 1.15;
   margin-bottom: 32px;
@@ -101,9 +101,45 @@ body {
 /* MOBILE REFINEMENT */
 @media (max-width: 640px) {
   .headline {
-    font-size: 32px;
+    font-size: 22px;
+    
+  }
+  
+  @media (max-width: 640px) {
+  .role {
+    font-size: 13px;
+    }
+    
+    .description {
+    font-size: 14px;
+    }
+    
+    .availability {
+    font-size: 13px; 
+    gap: 9px;
+    }
+    
+    .pulse-dot {
+  width: 8px;
+  height: 8px; 
+  }
+    
   }
 
+
+@media (max-width: 640px) {
+  .hero {
+    align-items: flex-start;   /* stop vertical centering */
+    min-height: auto;          /* remove forced full height */
+    padding-top: 24px;         /* small, controlled top spacing */
+  }
+}
+
+@media (max-width: 640px) {
+  .name {
+    margin-bottom: 20px;
+  }
+}
   .hero-inner {
     padding-top: 40px;
     padding-bottom: 40px;
