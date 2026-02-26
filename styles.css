@@ -307,6 +307,8 @@ body {
 
 /* FOCUS SECTION */
 .focus {
+  padding-top: 0;          /* IMPORTANT */
+  padding-bottom: 80px;
   padding: 40px 0 80px;
   background: #0b0b0b;
 }
