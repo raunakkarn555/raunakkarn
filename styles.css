@@ -533,8 +533,8 @@ body {
 /* SOCIAL LINKS HOVER HIGHLIGHT EFFECT */
 
 .elsewhere-item {
-  padding: 8px 8px;
-  border-radius: 8px;
+  padding: 12px 12px;
+  border-radius: 12px;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
