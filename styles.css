@@ -131,7 +131,7 @@ body {
   .hero {
     align-items: flex-start;   /* stop vertical centering */
     min-height: auto;          /* remove forced full height */
-    padding-top: 24px;         /* small, controlled top spacing */
+    padding-top: 20px;         /* small, controlled top spacing */
   }
 }
 
@@ -141,8 +141,8 @@ body {
   }
 }
   .hero-inner {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 
