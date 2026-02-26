@@ -320,10 +320,91 @@ body {
 
 
 
+/* EDUCATION SECTION */
+
+.resume-education {
+  padding: 40px 0 80px;
+  background: #0b0b0b;
+}
+
+.resume-education-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.resume-education-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 28px;
+}
+
+.resume-education-item {
+  margin-bottom: 20px;
+}
+
+.resume-degree {
+  font-size: 16px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 6px;
+}
+
+.resume-institute {
+  font-size: 15px;
+  color: #b5b5b5;
+  margin-bottom: 6px;
+}
+
+.resume-education-dates {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-education {
+    padding: 30px 0 50px;
+  }
+
+  .resume-education-title {
+    font-size: 18px;
+  }
+
+  .resume-degree {
+    font-size: 15px;
+  }
+
+  .resume-institute {
+    font-size: 14px;
+  }
+
+  .resume-education-dates {
+    font-size: 13px;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-education {
+    padding-top: 40px;
+  }
+}
 
 
 
-
+/* EDUCATION SECTION ends  */
 
 
 
