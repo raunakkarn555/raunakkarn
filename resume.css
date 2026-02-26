@@ -490,3 +490,79 @@ body {
 
 /* TECHNICAL SKILLS SECTION ends */
 
+/* KEY STRENGTHS SECTION */
+
+.resume-strengths {
+  padding: 40px 0 80px;
+  background: #0b0b0b;
+}
+
+.resume-strengths-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.resume-strengths-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #eaeaea;
+  margin-bottom: 28px;
+}
+
+.resume-strengths-list {
+  padding-left: 18px;
+}
+
+.resume-strengths-list li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #b5b5b5;
+  margin-bottom: 12px;
+}
+
+
+/* ============================= */
+/* MOBILE REFINEMENT (≤640px)   */
+/* ============================= */
+
+@media (max-width: 640px) {
+
+  .resume-strengths {
+    padding: 30px 0 50px;
+  }
+
+  .resume-strengths-title {
+    font-size: 18px;
+  }
+
+  .resume-strengths-list li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ============================= */
+/* TABLET FIX (≤1024px)         */
+/* ============================= */
+
+@media (max-width: 1024px) {
+  .resume-strengths {
+    padding-top: 40px;
+  }
+} 
+
+/* KEY STRENGTHS SECTION ends */
+
+
+
+
+
+
+
+
+
+
+/* KEY STRENGTHS SECTION */
